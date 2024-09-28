@@ -28,11 +28,36 @@ The dataset contains **891 rows** and **12 columns**. It can be accessed from th
 ## Visualizations
 The following visualizations were created to explore the data:
 
-### 1. Age Distribution of Passengers
-```python
-plt.figure(figsize=(10, 6))
-sns.histplot(data=titanic_df, x='Age', bins=30, kde=True)
-plt.title('Age Distribution of Passengers')
-plt.xlabel('Age')
-plt.ylabel('Count')
-plt.show()
+1. Age Distribution of Passengers
+2. Number of Passengers in Each Class
+3. Age Distribution Across Passenger Classes
+4. Passenger Class vs. Fare by Survival Status
+5. Survival Rate by Passenger Class
+6. Number of Survivors by Gender
+
+## Key Findings
+
+    Passenger Class: Passengers in 1st class had a higher survival rate compared to those in 3rd class, indicating a correlation between class and survival chances. This is consistent with historical accounts suggesting that priority was given to higher-class passengers during evacuation.
+    Gender Influence: The number of female survivors was higher than male survivors, suggesting that gender played a significant role in survival. Women and children were often prioritized during evacuations.
+
+## Conclusion
+
+The visualizations support the narrative that factors such as passenger class and gender significantly influenced survival rates. Higher-class passengers and females had a greater chance of survival due to societal norms and evacuation protocols at the time.
+
+## How to Run the Code
+
+    1. Ensure you have Python installed.
+    2. Install the required libraries:
+      pip install pandas matplotlib seaborn
+    3. Run the script:
+      python titanic_analysis.py
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+    Dataset sourced from Kaggle.
+    Inspired by the historical significance of the Titanic tragedy.
+
