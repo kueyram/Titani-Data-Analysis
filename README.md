@@ -48,9 +48,13 @@ The visualizations support the narrative that factors such as passenger class an
 
     1. Ensure you have Python installed.
     2. Install the required libraries:
+    ```
       pip install pandas matplotlib seaborn
+    ```
     3. Run the script:
+    ```
       python titanic_analysis.py
+    ```
 
 ## License
 
